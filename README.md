@@ -2,7 +2,6 @@
 
 ### About
 Basic API Server using **Redis**, **Elastic Search** and **Node.JS**.
-> One can checkout the code at: 
 
 ### Configuration
   * One can use Redis as a Service from [Redislabs](redislabs.com) with 30MB of storage for free.
@@ -42,6 +41,8 @@ Basic API Server using **Redis**, **Elastic Search** and **Node.JS**.
         "message": "Coldplay - Hymn For The Weekend"
       }
       ```
+ 
+> API Endpoints might be down at times
 
 ### Run: 
 ```shell 
