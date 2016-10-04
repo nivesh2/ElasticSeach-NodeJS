@@ -5,7 +5,7 @@
   "description": "Basic API server using Redis and ElasticSearch",
   "private": true,
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^1.14.2",
