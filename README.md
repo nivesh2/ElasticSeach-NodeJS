@@ -6,10 +6,14 @@ Basic API Server using **Redis**, **Elastic Search** and **Node.JS**.
 ### Configuration
   * One can use Redis as a Service from [Redislabs](redislabs.com) with 30MB of storage for free.
   * One can install Elastic Search in ubuntu [myGist](https://gist.github.com/nivesh2/b3fe307743f998042cc1)
-
+  
+### Setup
+  * Update config.js with your details
+  * npm install
+  * npm start
 
 ### API EndPoints: 
- * http://cloudboost-nivesh2.c9users.io/index
+ * http://localhost:8080/index
     - method: POST
     - BODY: message as form data or as json in body.
       ```json
@@ -25,7 +29,7 @@ Basic API Server using **Redis**, **Elastic Search** and **Node.JS**.
       }
       ```
     
- * http://cloudboost-nivesh2.c9users.io/index
+ * http://localhost:8080/index
     - method: GET
     - return: 
       ```json
@@ -33,7 +37,7 @@ Basic API Server using **Redis**, **Elastic Search** and **Node.JS**.
         "message": "Coldplay - Hymn For The Weekend"
       }
       ```
-  * http://cloudboost-nivesh2.c9users.io/search
+  * http://localhost:8080/search
     - method: GET
     - return: 
       ```json
